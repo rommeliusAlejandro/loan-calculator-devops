@@ -1,0 +1,10 @@
+version: '3'
+services:
+  backend:
+    build: loanCalculatorBackend\.
+    ports:
+      - "9090:9090"
+  frontend:
+    build: loan-calculator-frontend\.
+    ports:
+      - "4200:4200"
